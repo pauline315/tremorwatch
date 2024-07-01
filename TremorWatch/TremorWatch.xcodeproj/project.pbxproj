@@ -7,30 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4BC60CD2C2C42D100BA32D7 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC60CC2C2C42D100BA32D7 /* extensions.swift */; };
+		E4BC60CF2C2C450A00BA32D7 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC60CE2C2C450A00BA32D7 /* MainTabbarController.swift */; };
+		E4BC60D12C2C4CA500BA32D7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC60D02C2C4CA500BA32D7 /* MapViewController.swift */; };
+		E4BC60D32C2C4D6400BA32D7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC60D22C2C4D6400BA32D7 /* SearchViewController.swift */; };
+		E4BC60D52C2C4E8D00BA32D7 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BC60D42C2C4E8D00BA32D7 /* DetailedViewController.swift */; };
 		E4E378FA2C19AC78006D0B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E378F92C19AC78006D0B98 /* AppDelegate.swift */; };
 		E4E378FC2C19AC78006D0B98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E378FB2C19AC78006D0B98 /* SceneDelegate.swift */; };
 		E4E378FE2C19AC78006D0B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E378FD2C19AC78006D0B98 /* ViewController.swift */; };
-		E4E379012C19AC78006D0B98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4E379002C19AC78006D0B98 /* Base */; };
 		E4E379032C19AC79006D0B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E379022C19AC79006D0B98 /* Assets.xcassets */; };
 		E4E379062C19AC79006D0B98 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E4E379052C19AC79006D0B98 /* Base */; };
 		E4E3790F2C19D390006D0B98 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E4E3790E2C19D390006D0B98 /* RxCocoa */; };
 		E4E379112C19D390006D0B98 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E4E379102C19D390006D0B98 /* RxSwift */; };
 		E4E379132C19D70E006D0B98 /* Earthquake.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E379122C19D70E006D0B98 /* Earthquake.swift */; };
-		E4E379152C19D771006D0B98 /* EartquakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E379142C19D771006D0B98 /* EartquakeViewModel.swift */; };
 		E4E379172C19D89F006D0B98 /* EarthquakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E379162C19D89F006D0B98 /* EarthquakeService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4BC60CC2C2C42D100BA32D7 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		E4BC60CE2C2C450A00BA32D7 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		E4BC60D02C2C4CA500BA32D7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E4BC60D22C2C4D6400BA32D7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E4BC60D42C2C4E8D00BA32D7 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		E4E378F62C19AC78006D0B98 /* TremorWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremorWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E378F92C19AC78006D0B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E378FB2C19AC78006D0B98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E4E378FD2C19AC78006D0B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4E379002C19AC78006D0B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4E379022C19AC79006D0B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4E379052C19AC79006D0B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E379072C19AC79006D0B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E379122C19D70E006D0B98 /* Earthquake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earthquake.swift; sourceTree = "<group>"; };
-		E4E379142C19D771006D0B98 /* EartquakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EartquakeViewModel.swift; sourceTree = "<group>"; };
 		E4E379162C19D89F006D0B98 /* EarthquakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +53,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4B94FC72C2ACDF300B6D088 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E4E379122C19D70E006D0B98 /* Earthquake.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E4B94FC82C2ACE1E00B6D088 /* view  */ = {
+			isa = PBXGroup;
+			children = (
+				E4E378FD2C19AC78006D0B98 /* ViewController.swift */,
+			);
+			path = "view ";
+			sourceTree = "<group>";
+		};
+		E4B94FC92C2ACE5A00B6D088 /* view model */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC60CC2C2C42D100BA32D7 /* extensions.swift */,
+				E4E379162C19D89F006D0B98 /* EarthquakeService.swift */,
+			);
+			path = "view model";
+			sourceTree = "<group>";
+		};
+		E4BC60CB2C2C428400BA32D7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC60CE2C2C450A00BA32D7 /* MainTabbarController.swift */,
+				E4BC60D42C2C4E8D00BA32D7 /* DetailedViewController.swift */,
+				E4BC60D02C2C4CA500BA32D7 /* MapViewController.swift */,
+				E4BC60D22C2C4D6400BA32D7 /* SearchViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
 		E4E378ED2C19AC78006D0B98 = {
 			isa = PBXGroup;
 			children = (
@@ -66,16 +108,15 @@
 		E4E378F82C19AC78006D0B98 /* TremorWatch */ = {
 			isa = PBXGroup;
 			children = (
+				E4BC60CB2C2C428400BA32D7 /* controllers */,
+				E4B94FC92C2ACE5A00B6D088 /* view model */,
+				E4B94FC82C2ACE1E00B6D088 /* view  */,
+				E4B94FC72C2ACDF300B6D088 /* model */,
 				E4E378F92C19AC78006D0B98 /* AppDelegate.swift */,
 				E4E378FB2C19AC78006D0B98 /* SceneDelegate.swift */,
-				E4E378FD2C19AC78006D0B98 /* ViewController.swift */,
-				E4E378FF2C19AC78006D0B98 /* Main.storyboard */,
 				E4E379022C19AC79006D0B98 /* Assets.xcassets */,
 				E4E379042C19AC79006D0B98 /* LaunchScreen.storyboard */,
 				E4E379072C19AC79006D0B98 /* Info.plist */,
-				E4E379122C19D70E006D0B98 /* Earthquake.swift */,
-				E4E379142C19D771006D0B98 /* EartquakeViewModel.swift */,
-				E4E379162C19D89F006D0B98 /* EarthquakeService.swift */,
 			);
 			path = TremorWatch;
 			sourceTree = "<group>";
@@ -147,7 +188,6 @@
 			files = (
 				E4E379032C19AC79006D0B98 /* Assets.xcassets in Resources */,
 				E4E379062C19AC79006D0B98 /* Base in Resources */,
-				E4E379012C19AC78006D0B98 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,24 +200,20 @@
 			files = (
 				E4E378FE2C19AC78006D0B98 /* ViewController.swift in Sources */,
 				E4E378FA2C19AC78006D0B98 /* AppDelegate.swift in Sources */,
+				E4BC60D52C2C4E8D00BA32D7 /* DetailedViewController.swift in Sources */,
+				E4BC60CF2C2C450A00BA32D7 /* MainTabbarController.swift in Sources */,
+				E4BC60D32C2C4D6400BA32D7 /* SearchViewController.swift in Sources */,
 				E4E379172C19D89F006D0B98 /* EarthquakeService.swift in Sources */,
+				E4BC60CD2C2C42D100BA32D7 /* extensions.swift in Sources */,
 				E4E379132C19D70E006D0B98 /* Earthquake.swift in Sources */,
 				E4E378FC2C19AC78006D0B98 /* SceneDelegate.swift in Sources */,
-				E4E379152C19D771006D0B98 /* EartquakeViewModel.swift in Sources */,
+				E4BC60D12C2C4CA500BA32D7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E4E378FF2C19AC78006D0B98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4E379002C19AC78006D0B98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4E379042C19AC79006D0B98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -320,9 +356,9 @@
 				INFOPLIST_FILE = TremorWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,9 +384,9 @@
 				INFOPLIST_FILE = TremorWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
